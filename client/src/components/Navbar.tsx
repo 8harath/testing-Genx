@@ -49,7 +49,8 @@ export default function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="/">
-            <a className="text-xl font-bold text-primary hover:text-primary/80 transition-colors">
+            <a className="flex items-center gap-2 text-xl font-bold text-primary hover:text-primary/80 transition-colors">
+              <img src="/src/assets/logo.svg" alt="GenXReality Logo" className="w-8 h-8" />
               GenXReality
             </a>
           </Link>
@@ -121,19 +122,11 @@ function InvestorPage() {
   return (
     <div>
       <h1>Investor Information</h1>
-      <p>This is the investor page.  Content from the business plan would go here.</p>
+      <p>This is the investor page.  We are seeking seed funding to further develop our groundbreaking augmented reality platform.  Our business plan projects significant growth within the next three years, based on our strong initial market traction and strategic partnerships.  Detailed financial projections, market analysis, and team biographies are available upon request.</p>
+      <p>For more information or to schedule a meeting, please contact us at investors@genxreality.com</p>
+
     </div>
   );
 }
 
-
-//App.tsx (Illustrative example - needs to be integrated with your existing App)
-//import { BrowserRouter, Routes, Route } from "react-router-dom";
-//import Navbar from "./Navbar";
-//import InvestorPage from "./InvestorPage";
-//<BrowserRouter>
-//  <Routes>
-//    <Route path="/" element={<HomePage />} /> {/*Your existing home page*/}
-//    <Route path="/investor" element={<InvestorPage />} />
-//  </Routes>
-//</BrowserRouter>
+export {InvestorPage};

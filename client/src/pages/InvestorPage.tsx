@@ -1,4 +1,3 @@
-
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -25,11 +24,6 @@ const marketSegments = [
   }
 ];
 
-const financialProjections = [
-  { year: "Year 1", units: "5,000", revenue: "₹10 Cr", profit: "₹1 Cr", margin: "10%" },
-  { year: "Year 3", units: "50,000", revenue: "₹100 Cr", profit: "₹15 Cr", margin: "15%" }
-];
-
 export default function InvestorPage() {
   return (
     <div className="min-h-screen bg-background">
@@ -51,9 +45,9 @@ export default function InvestorPage() {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="text-xl md:text-2xl text-muted-foreground mb-8"
+            className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto"
           >
-            Back India's First Affordable Standalone Headset
+            Back India's First Affordable Standalone Headset. Transforming virtual reality with a ₹20,000 device built for India's gamers, learners, and professionals.
           </motion.p>
           <motion.div
             initial={{ y: 20, opacity: 0 }}
@@ -114,7 +108,7 @@ export default function InvestorPage() {
         </div>
       </section>
 
-      {/* Market Segments */}
+      {/* The Opportunity */}
       <section className="py-20 bg-background">
         <div className="container">
           <motion.h2
@@ -123,33 +117,60 @@ export default function InvestorPage() {
             viewport={{ once: true }}
             className="text-3xl md:text-4xl font-bold text-center mb-16"
           >
-            Target Markets
+            The Opportunity
           </motion.h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {marketSegments.map((segment, index) => (
-              <motion.div
-                key={segment.title}
-                initial={{ y: 50, opacity: 0 }}
-                whileInView={{ y: 0, opacity: 1 }}
-                viewport={{ once: true }}
-                transition={{ delay: index * 0.1 }}
-              >
-                <Card className="h-full hover:shadow-[0_0_20px_rgba(0,255,0,0.2)] transition-shadow duration-300">
-                  <CardHeader>
-                    <segment.icon className="h-12 w-12 text-primary mb-4" />
-                    <CardTitle className="text-2xl">{segment.title}</CardTitle>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-xl font-bold mb-2">{segment.stats}</p>
-                    <p className="text-muted-foreground">{segment.description}</p>
-                  </CardContent>
-                </Card>
-              </motion.div>
-            ))}
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <Card>
+              <CardHeader>
+                <CardTitle>The Problem</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  VR headsets like the Oculus Quest 2 are priced over ₹30,000—far beyond most Indian households' annual tech budgets. Imported devices lack India-specific ergonomics, design, and regulatory compliance.
+                </p>
+              </CardContent>
+            </Card>
+            <Card>
+              <CardHeader>
+                <CardTitle>The Solution</CardTitle>
+              </CardHeader>
+              <CardContent>
+                <p className="text-muted-foreground">
+                  A ₹20,000 locally manufactured headset with 3DoF tracking, lightweight design, and strong VR performance. Built in India, for India—this device unlocks VR for 500 million+ price-sensitive users.
+                </p>
+              </CardContent>
+            </Card>
           </div>
         </div>
       </section>
 
+      {/* Market Segments */}
+      <section className="py-20 bg-background/95">
+        <div className="container">
+          <motion.h2
+            initial={{ y: 20, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            viewport={{ once: true }}
+            className="text-3xl md:text-4xl font-bold text-center mb-16"
+          >
+            Market Segments
+          </motion.h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {marketSegments.map((segment, index) => (
+              <Card key={index}>
+                <CardHeader>
+                  <segment.icon className="w-12 h-12 text-primary mb-4" />
+                  <CardTitle>{segment.title}</CardTitle>
+                </CardHeader>
+                <CardContent>
+                  <p className="text-2xl font-bold text-primary mb-2">{segment.stats}</p>
+                  <p className="text-muted-foreground">{segment.description}</p>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
       {/* Financial Projections */}
       <section className="py-20 bg-background/95">
         <div className="container">
@@ -223,3 +244,8 @@ export default function InvestorPage() {
     </div>
   );
 }
+
+const financialProjections = [
+  { year: "Year 1", units: "5,000", revenue: "₹10 Cr", profit: "₹1 Cr", margin: "10%" },
+  { year: "Year 3", units: "50,000", revenue: "₹100 Cr", profit: "₹15 Cr", margin: "15%" }
+];
