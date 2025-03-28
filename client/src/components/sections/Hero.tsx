@@ -48,7 +48,7 @@ export default function Hero() {
             className="bg-background/10 border border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 text-lg hover:scale-105 hover:shadow-[0_0_30px_rgba(0,255,0,0.3)]"
             onClick={() => window.location.href = '/investor'}
           >
-            Explore Our Solutions
+            Be an Investor
           </Button>
         </motion.div>
       </div>
