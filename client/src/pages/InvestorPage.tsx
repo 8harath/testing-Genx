@@ -33,7 +33,7 @@ export default function InvestorPage() {
         animate={{ opacity: 1 }}
         className="relative h-[80vh] flex items-center justify-center bg-gradient-to-r from-primary/10 to-background"
       >
-        <div className="container text-center">
+        <div className="container max-w-4xl mx-auto px-4 text-center">
           <motion.h1
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
@@ -45,7 +45,7 @@ export default function InvestorPage() {
             initial={{ y: 20, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ delay: 0.2 }}
-            className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto"
+            className="text-xl md:text-2xl text-muted-foreground mb-8"
           >
             Back India's First Affordable Standalone Headset. Transforming virtual reality with a ₹20,000 device built for India's gamers, learners, and professionals.
           </motion.p>
@@ -55,13 +55,46 @@ export default function InvestorPage() {
             transition={{ delay: 0.4 }}
             className="flex gap-4 justify-center"
           >
-            <Button size="lg" className="gap-2">
+            <Button size="lg" className="gap-2 hover:scale-105 transition-transform">
               <Download size={20} /> Download Pitch
             </Button>
-            <Button size="lg" variant="outline" className="gap-2">
+            <Button size="lg" variant="outline" className="gap-2 hover:scale-105 transition-transform">
               <Mail size={20} /> Get in Touch
             </Button>
           </motion.div>
+        </div>
+      </motion.section>
+
+      {/* Investment Details */}
+      <motion.section 
+        initial={{ opacity: 0, y: 50 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6 }}
+        className="py-20 bg-background/50"
+      >
+        <div className="container max-w-4xl mx-auto px-4 text-center">
+          <h2 className="text-3xl font-bold mb-8">Investment Opportunity</h2>
+          <div className="grid gap-8 md:grid-cols-2">
+            <motion.div 
+              initial={{ opacity: 0, x: -50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="p-6 rounded-lg bg-card hover:shadow-xl transition-shadow"
+            >
+              <h3 className="text-xl font-semibold mb-4">Market Potential</h3>
+              <p className="text-muted-foreground">India's VR market is projected to grow exponentially, presenting a unique opportunity for early investors.</p>
+            </motion.div>
+            <motion.div 
+              initial={{ opacity: 0, x: 50 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              className="p-6 rounded-lg bg-card hover:shadow-xl transition-shadow"
+            >
+              <h3 className="text-xl font-semibold mb-4">Our Advantage</h3>
+              <p className="text-muted-foreground">Proprietary technology enabling affordable VR solutions without compromising on quality.</p>
+            </motion.div>
+          </div>
         </div>
       </motion.section>
 
