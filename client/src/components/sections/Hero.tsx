@@ -47,6 +47,8 @@ export default function Hero() {
             size="lg"
             className="bg-background/10 border border-primary text-primary hover:bg-primary hover:text-primary-foreground transition-all duration-300 text-lg hover:scale-105 hover:shadow-[0_0_30px_rgba(0,255,0,0.3)]"
             onClick={() => window.location.href = '/investor'}
+            aria-label="Navigate to investor page"
+            role="button"
           >
             Be an Investor
           </Button>
