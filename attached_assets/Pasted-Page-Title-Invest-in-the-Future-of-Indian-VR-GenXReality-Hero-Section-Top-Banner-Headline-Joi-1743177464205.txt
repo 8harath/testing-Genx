@@ -1,0 +1,220 @@
+Page Title:
+Invest in the Future of Indian VR | GenXReality
+
+Hero Section (Top Banner)
+Headline:
+Join the VR Revolution. Back India’s First Affordable Standalone Headset.
+
+Subheadline:
+Transforming virtual reality with a ₹20,000 device built for India’s gamers, learners, and professionals.
+
+CTA Buttons:
+[Download Pitch Deck] [Get in Touch] [Invest Now]
+
+Background:
+Image or animation of the VR headset, youth using it in gaming/education settings, or an immersive VR environment.
+
+Section 1: Company Snapshot
+Heading:
+GenXReality at a Glance
+
+Content (in columns or cards):
+
+Founder: Akkinepally Krishna Vamshi
+
+Contact: akvamshi33@gmail.com
+
+Website: genxreality.in
+
+Stage: Prototype Development (Pre-Production)
+
+Funding Ask: ₹2 Crore for 10% equity
+
+Valuation: ₹20 Crore
+
+Market Size: $1B India VR Market by 2028
+
+Section 2: Executive Summary
+Heading:
+Why GenXReality?
+
+Content:
+GenXReality is building India’s first high-performance standalone VR headset priced under ₹20,000—33% cheaper than current global options. Designed for local needs and manufactured in India, it brings immersive technology to the masses. We're targeting the 95% of Indians who currently can't afford VR. Seeking ₹2 crore in funding, we offer a 10% equity stake and project a 10x return in 3 years.
+
+Section 3: The Opportunity
+Heading:
+Solving the VR Accessibility Problem
+
+Subheading:
+The Problem:
+VR headsets like the Oculus Quest 2 are priced over ₹30,000—far beyond most Indian households’ annual tech budgets. Imported devices lack India-specific ergonomics, design, and regulatory compliance.
+
+Subheading:
+The Solution:
+A ₹20,000 locally manufactured headset with 3DoF tracking, lightweight design, and strong VR performance. Built in India, for India—this device unlocks VR for 500 million+ price-sensitive users.
+
+Section 4: Market Research
+Heading:
+India’s VR Market is Booming
+
+Subheading:
+Market Size & Growth
+
+2023: $150M
+
+2028 (Projected): $1B (CAGR: 38%)
+
+900M smartphone users, digital education push, and "Make in India" drive growth.
+
+Subheading:
+Target Segments
+
+Gaming (40%)
+
+400M gamers in India, 50M seek immersive experience
+
+Only 5% VR penetration due to price
+
+GenXReality unlocks the untapped 95%
+
+Education (35%)
+
+$10B edtech market, rapid VR adoption for virtual labs and simulations
+
+Urban youth interest in VR under ₹25,000: 60%
+
+Enterprise (25%)
+
+15M SMEs need affordable training tools
+
+VR upskilling for manufacturing, retail, and healthcare
+
+Section 5: Competitive Edge
+Heading:
+Why We’ll Win
+
+Product	Price	Market Fit	Standalone	Localized Design	Target User
+Oculus Quest 2	₹30,000+	Premium Global	Yes	No	High-end
+HTC Vive Focus	₹50,000+	Enterprise Global	Yes	No	B2B
+Procus (Viewer)	₹2,000	Low-end Only	No	No	Casual
+GenXReality	₹20,000	Mass India Market	Yes	Yes	Mass/B2B
+Competitive Advantages:
+
+Local manufacturing with partners like Dixon
+
+BIS-certified & ergonomic for Indian users
+
+Open-source VR design (OSVR-based) to reduce software costs
+
+15–20% cheaper due to reduced import duties
+
+Section 6: Product Overview
+Heading:
+Meet the Headset
+
+Tech Specs (Grid Style or Cards):
+
+Processor: Snapdragon 821
+
+Display: Dual 2.9” LCD (1440x1440, 90Hz)
+
+RAM / Storage: 4GB / 64GB
+
+Tracking: 3DoF IMU-based
+
+Weight: <500g with adjustable straps
+
+Battery: Long-lasting (details optional)
+
+BOM Cost: ₹17,895
+
+Selling Price: ₹20,000
+
+Image or Render of the headset here
+
+Section 7: Business Model
+Heading:
+How We Make Money
+
+Revenue Streams:
+
+Hardware Sales:
+₹20,000 per unit via Amazon, Flipkart
+
+Content Subscriptions:
+₹500/year for VR games and apps
+
+Bulk B2B Sales:
+₹18,000/unit to schools, edtech firms, SMEs
+
+Margins & Growth:
+
+Initial margin: 11.8% (₹2,105/unit)
+
+At scale (10,000 units): 20% margin
+
+Breakeven: 2,500 units (~₹5 Cr revenue)
+
+Section 8: Cost Structure
+Heading:
+Cost Breakdown (Per Unit)
+
+Component	Cost (INR)	% of BOM
+2x LCD Displays	₹6,640	37%
+Snapdragon 821 SoC	₹2,490	14%
+Memory + Storage	₹2,905	16%
+Battery	₹1,660	9%
+Sensors + Others	₹4,200	24%
+Total BOM	₹17,895	100%
+Section 9: Roadmap & Implementation
+Heading:
+Launch Timeline
+
+Q2 2025: Prototype complete
+
+Q3 2025: Crowdfunding (Kickstarter/Indiegogo), ₹50L goal
+
+Q1 2026: Production & public launch (5,000 units)
+
+Use of Funds (₹2 Cr):
+
+40% – R&D & Prototyping (₹80L)
+
+50% – Manufacturing Setup (₹1 Cr)
+
+10% – Marketing (₹20L)
+
+Manufacturing Partners: Dixon Technologies / Foxconn India
+Certifications: BIS (₹50K–₹1L, amortized)
+
+Section 10: Financial Projections
+Heading:
+3-Year Growth Outlook
+
+Year	Units Sold	Revenue	Profit	Margin
+Year 1	5,000	₹10 Cr	₹1 Cr	10%
+Year 3	50,000	₹100 Cr	₹15 Cr	15%
+Break-even: 2,500 units (within 5 months of launch)
+
+Section 11: Funding & Offer
+Heading:
+Your Investment Opportunity
+
+We’re Raising: ₹2 crore
+Equity Offered: 10% (₹20 crore valuation)
+Use of Funds: Prototype development, manufacturing, marketing
+Projected ROI: 10x within 3 years
+
+CTA Button:
+[Invest Now] or [Schedule a Call with the Founder]
+
+Section 12: Contact
+Heading:
+Let’s Talk
+
+Founder: Akkinepally Krishna Vamshi
+
+Email: akvamshi33@gmail.com
+
+Website: genxreality.in
+
