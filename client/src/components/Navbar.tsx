@@ -115,3 +115,25 @@ export default function Navbar() {
     </motion.nav>
   );
 }
+
+// New Investor Page Component
+function InvestorPage() {
+  return (
+    <div>
+      <h1>Investor Information</h1>
+      <p>This is the investor page.  Content from the business plan would go here.</p>
+    </div>
+  );
+}
+
+
+//App.tsx (Illustrative example - needs to be integrated with your existing App)
+//import { BrowserRouter, Routes, Route } from "react-router-dom";
+//import Navbar from "./Navbar";
+//import InvestorPage from "./InvestorPage";
+//<BrowserRouter>
+//  <Routes>
+//    <Route path="/" element={<HomePage />} /> {/*Your existing home page*/}
+//    <Route path="/investor" element={<InvestorPage />} />
+//  </Routes>
+//</BrowserRouter>
